@@ -1,0 +1,47 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0518be;
+    margin: 0; 
+    transition: background-color 0.3s ease; 
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #043a8b;
+    border-radius: 0.5rem; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+    }
+}
+
+.pokedex img {
+    width: 450px; 
+    height: 160px; 
+    margin-right: 50px; 
+}
+
+.footer {
+    text-align: center;
+    background-color: #0772ff;
+    padding: 1px; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.footer > p{
+    color: aliceblue;
+}
